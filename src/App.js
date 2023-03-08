@@ -7,8 +7,6 @@ import Skill from './components/Skill';
 import skills from './skills';
 
 
-import './App.css';
-
 
 
 

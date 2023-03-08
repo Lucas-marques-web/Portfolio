@@ -113,6 +113,9 @@ h1{
     height:100px;
     margin: 10px;
 }
+.change{
+    border:5px solid #ffe8dc;
+}
 .skill-icon{
     width: 80%;
     margin: 10px 5px;

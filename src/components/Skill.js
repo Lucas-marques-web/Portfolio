@@ -11,7 +11,9 @@ import githubIcon from './assets/icons/github.png';
 import wordpressIcon from './assets/icons/wordpress.png';
 import figmaIcon from './assets/icons/figma.png';
 import sassIcon from './assets/icons/sass.png';
+import mouseOver from '../action';
 
+// document.querySelector('.skill-div').addEventListener(onmouseover,mouseOver())
 
 
 function Skill(props) {
@@ -20,7 +22,7 @@ function Skill(props) {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <div className='skill-div'>
+                            <div className='skill-div' onmouseover={mouseOver()}>
                             <h1 className="skill-h1">Skills</h1>
                             <h3>{props.name}</h3>
                             <p className="skill-p">Pass the mouse over the skill to see the definition.
